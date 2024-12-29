@@ -1,0 +1,120 @@
+/* Задание 1: Свойство display */
+.display-block {
+  display: block;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.display-inline {
+   display: inline;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.display-flex {
+   display: flex;
+  background-color: lightcoral;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Задание 2: Flex-контейнер */
+.flex-container {
+   display: flex;
+  gap: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.flex-container div {
+   background-color: #b0e0e6;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Задание 3: Flex-direction, flex-wrap, flex-flow */
+.flex-direction-column {
+   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* Задание 4: Выравнивание элементов */
+.alignment-example {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 200px;
+
+  border: 1px solid #000;
+}
+
+.alignment-example div {
+   background-color: lightblue;
+  padding: 10px;
+  margin: 5px; }
+
+/* Задание 5: flex-grow, flex-shrink, flex-basis */
+.flex-grow-example div {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100px;
+  background-color: lightgreen;
+  margin: 5px;
+  text-align: center;
+}
+
+/* Задание 6: Практическое задание */
+.flex-layout {
+  display: flex;
+  background-color: lightgray;
+  padding: 10px; }
+
+.flex-layout .item1 {
+  flex: 1 1 50%;
+  background-color: lightblue;
+  padding: 10px; }
+
+.flex-layout .item2 {
+  flex: 1 1 auto;
+  background-color: lightcoral;
+  padding: 10px; }
+
+.flex-layout .item3 {
+  flex: 0 0 100px;
+  background-color: lightgreen;
+  padding: 10px; }
+
+/* Задание 7: Меню навигации */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px; }
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px; }
+
+/* Задание 8: Галерея карточек */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #f0f0f0;
+  padding: 10px; }
+
+.gallery .card {
+  flex: 1 1 calc(33.333% - 10px);
+  background-color: lightyellow;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
